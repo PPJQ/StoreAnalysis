@@ -45,3 +45,6 @@ In this dataset we have the following columns description:
    * **Gross Income**:The income remaining after deducting the cost of goods sold from total sales. This is a continuous numerical value.
 
    * **Rating**:The customer’s rating of the product or service, usually on a scale (e.g., 1 to 5). This can help in understanding customer satisfaction.
+
+## Sale Trends
+
