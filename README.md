@@ -48,3 +48,16 @@ In this dataset we have the following columns description:
 
 ## Sale Trends
 
+According with the analysis we find the next results:
+
+* The most popular Product Line of the store is `Fashion Accessories`
+
+![Product Line Trends](./datasets/images/Product%20Line%20Trends.png)
+
+For each store branch these are the most popular Product Line: 
+
+* Store A: `Home and Lifestyle` and `Electronic Accessories`
+* Store B: `Sports and Travel` and `Fashion Accessories`
+* Store C: `Food and Beverages` and `Fashion Accessories`
+
+![Branch Product Trends](./datasets/images/Branch%20Product%20Trends.png)
