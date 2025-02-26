@@ -50,14 +50,65 @@ In this dataset we have the following columns description:
 
 According with the analysis we find the next results:
 
-* The most popular Product Line of the store is `Fashion Accessories`
+* The most popular Product Line of the store is `Electronic Accessories` with 971 product sales.
 
 ![Product Line Trends](./datasets/images/Product%20Line%20Trends.png)
 
 For each store branch these are the most popular Product Line: 
 
-* Store A: `Home and Lifestyle` and `Electronic Accessories`
-* Store B: `Sports and Travel` and `Fashion Accessories`
-* Store C: `Food and Beverages` and `Fashion Accessories`
+* Store A: `Home and Lifestyle` (371 purchases) and `Sport and Travel` (333 purchases)
+* Store B: `Sports and Travel` (322 purchases) and `Health and Beauty` (320 Purchases)
+* Store C: `Food and Beverages` (369 purchases) and `Fashion Accessories` (342 purchases)
 
 ![Branch Product Trends](./datasets/images/Branch%20Product%20Trends.png)
+
+A long the period of the dataset we find: 
+
+* In January the product line with more sales was `Sports and Travel` with 375 purchases.
+* In February the product line with more sales was `Food and Beverages` with 349 purchases.
+* In March the product line with more sales was `Home and Lifestyle` with 364 purchases.
+
+![Product Line Purchases Per Month](./datasets/images/Product%20Line%20Purchases%20Per%20Month.png)
+
+## Customer Behavior
+
+According with the results in the analysis we find the following behaviors:
+
+### Customer Type Per Gender
+
+* Female customer buy more products in both schemes (`Normal` and `Member`) that the Male customers.
+* Male customers are more likely to be under the `Normal` scheme
+* Female customers are more likely to be `Members` of the store
+
+| Gender | Customer Type | Purchases |
+|--------|---------------|-----------|
+| Female | Member        | 1492      |
+| Female | Normal        | 1377      |
+| Male   | Member        | 1293      |
+| Male   | Normal        | 1348      |
+
+
+![Customer Type Per Gender](./datasets/images/Customer%20Type%20Per%20Gender.png)
+
+### Product Line Preferences Per Customer Gender And Type
+
+* Female customers are more used to buy `Fashion Accessories` and `Food And Beverages` products
+* Male customers are more used to buy `Health and Beauty` and `Electronic Accessories` products
+
+![Product Line Tendency Per Customer Gender](./datasets/images/Product%20Line%20Tendency%20Per%20Customer%20Gender.png)
+
+* Normal customers are more used to buy `Electronic Accessories` products
+* Member customers are more used to buy `Food and Beverages`, `Sport and Travel` and `Home and Lifestyle` products
+
+![Product Line Tendency Per Customer Type](./datasets/images/Product%20Line%20Tendency%20Per%20Customer%20Type.png)
+
+### Customer Behavior Per Date
+
+In the analysis, we find that the female customer has more purchases in January and the male customer has more purchases in March, but both reduce purchases in February.
+
+![Customer Purchases Per Month And Gender](./datasets/images/Customers%20Purchases%20Per%20Month%20And%20Gender.png)
+![Customer Purchases Per Date And Gender](./datasets/images/Customer%20Purchases%20Per%20Date%20And%20Gender.png)
+
+## Revenue Performance
+
+
